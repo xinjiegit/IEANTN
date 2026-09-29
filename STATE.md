@@ -7,7 +7,7 @@ column says what a receipt is presently worth, not merely what was claimed for i
 reason a receipt has stopped standing is below, and `python scripts/ieantn.py status`
 adds the environment detail.
 
-54 node version(s), 108 conclusion(s).  3 state nothing yet.
+56 node version(s), 114 conclusion(s).  3 state nothing yet.
 
 ## Evidence
 
@@ -15,10 +15,10 @@ adds the environment detail.
 |---|---:|
 | `asserted` | 1 |
 | `bridged` | 3 |
-| `lean-comparator` | 33 |
+| `lean-comparator` | 38 |
 | `literature` | 39 |
 | `none-yet` | 4 |
-| `numerical` | 28 |
+| `numerical` | 29 |
 
 ## Nodes
 
@@ -60,6 +60,12 @@ adds the environment detail.
 | `CH2.v2` | active | `proposition_2_4_lower` | lean-comparator-stale | 0 | #64 |
 | `CH2.v3` | active | `extremal_majorant` | lean-comparator | 0 | #64 |
 | `CH2.v3` | active | `extremal_minorant` | lean-comparator | 0 | #64 |
+| `Chebyshev.v1` | active | `constant_bounds` | lean-comparator | 0 | - |
+| `Chebyshev.v1` | active | `psi_lower` | lean-comparator | 0 | - |
+| `Chebyshev.v1` | active | `psi_upper` | lean-comparator | 0 | - |
+| `Chebyshev.v1` | active | `psi_le_small` | lean-comparator | 0 | - |
+| `Chebyshev.v1` | active | `psi_upper_clean` | lean-comparator | 1 | - |
+| `ChebyshevNumerics.v1` | active | `psi_le_below_11723` | numerical | 0 | - |
 | `ChengGraham2004.v1` | stub | *(none yet)* | - | - | - |
 | `CotangentSeries.v1` | awaiting-solution | `cot_series_zeta_values` | none-yet | 0 | - |
 | `DudekPlatt.v1` | stub | `ramanujan_inequality` | literature | 2 | - |
@@ -216,6 +222,7 @@ downstream.
 | `DudekPlattNumerics.v3.pi_two_sided_footnote` | 1 |
 | `DudekPlattNumerics.v2.pi_two_sided_pnt` | 1 |
 | `DudekPlattNumerics.v1.pi_two_sided_paper` | 1 |
+| `ChebyshevNumerics.v1.psi_le_below_11723` | 1 |
 | `CH2.v1.corollary_1_2_psi` | 1 |
 | `CH2.v1.corollary_1_2_lambda_sum` | 1 |
 | `ButheNumerics.v1.li_minus_pi_below_1e7` | 1 |
